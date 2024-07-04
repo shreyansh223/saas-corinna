@@ -8,7 +8,6 @@ Features
 🏷️ White-labeling options<br/>
 🎨 Customizable interface<br/>
 🗓️ Calendar widget for bookings<br/>
-💳 Integrates with Stripe for payments<br/>
 ✉️ Simple email marketing<br/>
 💰 Financial dashboard<br/>
 💾 Save visitor info as leads<br/>
