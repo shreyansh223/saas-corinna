@@ -11,7 +11,7 @@ import {
   useStripe as useStripeHook,
 } from '@stripe/react-stripe-js';
 import { useRouter } from 'next/navigation';
-
+//WIP:REMOVE STRIPE / ADD OTHER PAYMENTS PARTNER
 export const useStripe = () => {
   const [onStripeAccountPending, setOnStripeAccountPending] =
     useState<boolean>(false);

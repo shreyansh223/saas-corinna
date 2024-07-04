@@ -1,5 +1,5 @@
 import { getUserAppointments } from '@/actions/appointment';
-import { 
+import {
   getUserBalance,
   getUserClients,
   getUserPlanInfo,
@@ -30,7 +30,7 @@ const Page = async (props: Props) => {
   return (
     <>
       <InfoBar />
-      <div className="overflow-y-auto w-full chat-window flex-1 h-0">
+      <div className="overflow-y-auto w-full chat-window flex-1 h-0 pr-2">
         <div className="flex gap-5 flex-wrap">
           <DashboardCard
             value={clients || 0}

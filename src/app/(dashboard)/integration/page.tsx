@@ -4,7 +4,7 @@ import IntegrationsList from '@/components/integrations';
 
 const IntegrationsPage = async () => {
   const payment = await onGetPaymentConnected();
-
+  //WIP:Remove stripe
   const connections = {
     stripe: payment ? true : false,
   };

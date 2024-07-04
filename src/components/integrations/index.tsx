@@ -4,7 +4,7 @@ import React from 'react';
 import { Card, CardContent, CardDescription } from '../ui/card';
 import Image from 'next/image';
 import IntegrationTrigger from './IntegrationTrigger';
-
+//WIP: REMOVE STRIPE
 type Props = {
   connections: {
     stripe: boolean;
@@ -22,7 +22,7 @@ const IntegrationsList = ({ connections }: Props) => {
                 <div className="w-10 h-10 relative">
                   <Image
                     sizes="100vw"
-                    src={`https://ucarecdn.com/${item.logo}/`}
+                    src={`https://ucarecdn.com/4a6c33e2-2688-4cca-be47-c187178e988b/stripe.gif`}
                     alt="Logo"
                     fill
                   />

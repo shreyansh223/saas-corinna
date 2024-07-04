@@ -47,7 +47,7 @@ const Modal = ({
               </div>
               <div className="w-12 h-12 relative">
                 <Image
-                  src={`https://ucarecdn.com/${logo}/`}
+                  src={`https://ucarecdn.com/4a6c33e2-2688-4cca-be47-c187178e988b/stripe.gif`}
                   fill
                   alt="Stripe"
                 />

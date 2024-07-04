@@ -4,7 +4,7 @@ import { CloudIcon } from 'lucide-react';
 import { Separator } from '../ui/separator';
 import Modal from '../modal';
 import { IntegrationModalBody } from './integration-modal-body';
-
+//WIP: REMOVE STRIPE
 type Props = {
   name: 'stripe';
   logo: string;

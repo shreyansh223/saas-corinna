@@ -82,6 +82,52 @@ const ProductTable = ({ id, products }: Props) => {
             ))}
           </DataTable>
         </TabsContent>
+        <TabsContent value="Live">
+          <DataTable headers={['Featured Image', 'Name', 'Pricing', 'Created']}>
+            {products.map((product) => (
+              <TableRow key={product.id}>
+                <TableCell>
+                  <Image
+                    src={`https://ucarecdn.com/${product.image}/`}
+                    width={50}
+                    height={50}
+                    alt="image"
+                  />
+                </TableCell>
+                <TableCell>${product.name}</TableCell>
+                <TableCell>{product.price}</TableCell>
+                <TableCell className="text-right">
+                  {product.createdAt.getDate()}{' '}
+                  {getMonthName(product.createdAt.getMonth())}{' '}
+                  {product.createdAt.getFullYear()}
+                </TableCell>
+              </TableRow>
+            ))}
+          </DataTable>
+        </TabsContent>
+        <TabsContent value="Deactivated">
+          <DataTable headers={['Featured Image', 'Name', 'Pricing', 'Created']}>
+            {products.map((product) => (
+              <TableRow key={product.id}>
+                <TableCell>
+                  <Image
+                    src={`https://ucarecdn.com/${product.image}/`}
+                    width={50}
+                    height={50}
+                    alt="image"
+                  />
+                </TableCell>
+                <TableCell>${product.name}</TableCell>
+                <TableCell>{product.price}</TableCell>
+                <TableCell className="text-right">
+                  {product.createdAt.getDate()}{' '}
+                  {getMonthName(product.createdAt.getMonth())}{' '}
+                  {product.createdAt.getFullYear()}
+                </TableCell>
+              </TableRow>
+            ))}
+          </DataTable>
+        </TabsContent>
       </TabsMenu>
     </div>
   );

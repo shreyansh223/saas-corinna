@@ -2,7 +2,7 @@ import { CheckCircle2Icon } from 'lucide-react';
 import React from 'react';
 import { Button } from '../ui/button';
 import { StripeConnect } from '../settings/stripe-connect';
-
+//WIP REMOVE STRIPE
 type IntegrationModalBodyProps = {
   type: string;
   connections: {

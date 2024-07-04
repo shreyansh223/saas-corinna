@@ -6,7 +6,7 @@ import { Avatar, AvatarFallback, AvatarImage } from '../ui/avatar';
 
 export const InfoBar = () => {
   return (
-    <div className="flex w-full justify-between items-center py-1 mb-8">
+    <div className="flex w-full justify-between items-center py-1 mb-8 pr-2">
       <BreadCrumb />
       <div className="flex gap-3 items-center">
         <div>

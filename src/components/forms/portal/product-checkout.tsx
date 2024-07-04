@@ -7,7 +7,7 @@ import { Card } from '@/components/ui/card';
 import { Elements } from '@stripe/react-stripe-js';
 import Image from 'next/image';
 import { CustomerPaymentForm } from './payment-form';
-
+//WIP: REMOVE STRIPE
 type Props = {
   onBack(): void;
   products?:

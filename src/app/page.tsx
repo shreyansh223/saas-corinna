@@ -113,7 +113,7 @@ export default async function Home() {
         </p>
       </section>
       <section className="md:grid-cols-3 grid-cols-1 grid gap-5 container mt-8">
-        {posts &&
+        {posts?.length &&
           posts.map((post) => (
             <Link href={`/blogs/${post.id}`} key={post.id}>
               <Card className="flex flex-col gap-2 rounded-xl overflow-hidden h-full hover:bg-gray-100">

@@ -478,7 +478,7 @@ export const onGetAllFilterQuestions = async (id: string) => {
     console.log(error);
   }
 };
-
+//WIP REMOVE STRIPE, BUILT NEW PAYMENT PROVIDER
 export const onGetPaymentConnected = async () => {
   try {
     const user = await currentUser();

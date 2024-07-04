@@ -6,7 +6,7 @@ type IntegrationsListItemProps = {
   title: string;
   modalDescription: string;
 };
-
+//WIP REMOVE STRIPE
 export const INTEGRATION_LIST_ITEMS: IntegrationsListItemProps[] = [
   {
     id: '1',
